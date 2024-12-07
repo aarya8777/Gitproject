@@ -33,3 +33,12 @@ fi
 echo "User $USERNAME added successfully with the specified password."
 
 exit 0
+
+# Check the hostname
+HOSTNAME=$(hostname)
+echo "Hostname: $HOSTNAME"
+
+# Check the current date and time
+CURRENT_DATE=$(date)
+echo "Current Date and Time: $CURRENT_DATE"
+
